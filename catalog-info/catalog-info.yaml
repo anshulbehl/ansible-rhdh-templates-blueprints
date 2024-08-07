@@ -6,7 +6,7 @@ kind: ${{ values.entityKind }}
 kind: Component
 {%- endif %}
 metadata:
-  name: ${{ values.collectionGroup }}.${{ values.collectionName }}
+  name: BLUEPRINT: ${{ values.collectionGroup }}.${{ values.collectionName }}
   {%- if values.title %}
   title: ${{ values.title }}
   {%- endif %}
